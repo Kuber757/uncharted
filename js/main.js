@@ -1,4 +1,3 @@
-
 $("#search-icon").click(function () {
 	$(".nav").toggleClass("search");
 	$(".nav").toggleClass("no-search");
@@ -14,6 +13,7 @@ $('.menu-toggle').click(function () {
 
 $(document)
     .mousemove(function(e) {
+		
         $('.cursor')
         .eq(0)
         .css({
